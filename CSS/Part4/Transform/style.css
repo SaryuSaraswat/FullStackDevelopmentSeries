@@ -1,0 +1,47 @@
+section{
+    margin-top: 50px;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 20px;
+    margin: 30px auto;
+}
+
+div:nth-of-type(2n){
+    background-color: chocolate;
+}
+
+div:nth-of-type(3n){
+    background-color: darkgoldenrod;
+}
+
+#one{
+    transform: rotate(45deg);
+}
+
+#two{
+    transform: scale(0.5, 0.75);
+}
+
+#three{
+    transform: translate(70px, 10px);
+    box-shadow: 5px 5px 20px green;
+}
+
+#four{
+    transform: skew(45deg);
+}
+
+#five{
+    transform: rotate(30deg) scale(0.75) translateX(30px) skew(30deg);
+}
+
+body{
+    background-image: url(/CSS/Part4/Transform/Screenshot\ 2024-09-14\ 170145.png);
+    background-size: cover;
+}

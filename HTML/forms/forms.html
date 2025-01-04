@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="/server">
+
+    <div>
+        <label for="username">Username : </label>
+        <input id="username" type="text" placeholder="Enter your name" name="user" />
+    </div>
+    <div>
+        <label for="password">Password : </label>
+        <input id="password" type="password" placeholder="Enter your password" name="pass"/>
+    </div>
+    <div>
+        <input id="age" type="checkbox"/>
+        <label for="age" name="age">I am 18 + </label>
+    </div>
+    <div>
+        <input type="radio" id="apple" name="fruit" value="apple" />
+        <label for="apple" >Apple</label>
+        <input type="radio" id="mango" name="fruit" value="mango" />
+        <label for="mango" >Mango</label>
+    </div>
+    <div>
+        <select name="profession" id="profession">
+            <option value="student">Student</option>
+            <option value="dev">Developer</option>
+        </select>
+    </div>
+    <div>
+        <label for="vol">Volume</label>
+        <input type="range" min="0" max="100" name="vol" step="10" value="60">
+    </div>
+
+    <div>
+        <label for="feedback" >Please provide feedback :</label>
+        <textarea id="feedback" rows="5" col="10" placeholder="write your feedback"></textarea>
+    </div>
+
+    <button>submit</button>
+    </form>
+
+    <hr/>
+
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="search anything on google" name="q">
+        <button>search</button>
+    </form>
+
+    </body>
+</body>
+
+</html>
